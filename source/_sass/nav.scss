@@ -1,0 +1,26 @@
+// ------------------------------------------
+// Nav (_includes/nav.html)
+// ------------------------------------------
+
+nav {
+
+	a {
+		display: inline-block;
+		color: $color--headings;
+		margin-right: 24px;
+
+		&:last-child {
+			margin-right: 0;
+		}
+
+		&:hover {
+			color: $color--links;
+		}
+
+		@media (min-width: $width--breakpoint) {
+			margin-right: 64px;
+		}
+
+	}
+
+}

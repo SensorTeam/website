@@ -2,6 +2,26 @@
 // User Interface Elements
 // ------------------------------------------
 
+.logo {
+	width: 55px;
+	height: 53px;
+	display: block;
+	margin-top: 5px;
+	text-indent: -99999px;
+	background-size: 55px 53px;
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-image: url('/static/images/logo.png');
+
+	text-indent: 0;
+	font-size: 24px;
+	padding-top: 12px;
+	font-weight: 800;
+	line-height: 24px;
+	padding-left: 69px;
+	color: $color--headings;
+}
+
 .button {
 	font-size: 16px;
 	line-height: 16px;
