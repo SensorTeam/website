@@ -1,0 +1,43 @@
+// ------------------------------------------
+// User Interface Elements
+// ------------------------------------------
+
+.button {
+	font-size: 16px;
+	line-height: 16px;
+	padding: 16px 32px;
+	border-radius: 8px;
+	display: inline-block;
+	transition: background-color .25s $transition--hover;
+
+	&-primary {
+		color: $color--background;
+		background-color: $color--links;
+
+		&:hover {
+			color: $color--background;
+			background-color: $color--links-hover;
+		}
+
+		&:active {
+			color: $color--background;
+			background-color: $color--links-active;
+		}
+	}
+
+	&-secondary {
+		color: $color--body;
+		background-color: lighten($color--background, 10%);
+
+		&:hover {
+			color: $color--body;
+			background-color: lighten($color--background, 25%);
+		}
+
+		&:active {
+			color: $color--body;
+			background-color: lighten($color--background, 5%);
+		}
+	}
+
+}
