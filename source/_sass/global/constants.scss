@@ -1,3 +1,22 @@
 // ------------------------------------------
 // Constants
 // ------------------------------------------
+
+$font--size: 16px;
+$font--stack: "PlexSans-Web", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+$font--baseline: 24px;
+
+$color--body: #CCD6DD;
+$color--background: #151831;
+
+$color--headings: #FFFFFF;
+$color--subheadings: #DEE0EE;
+
+$color--links: #3ECF8E;
+$color--links-hover: #D6FACF;
+$color--links-active: #24B47E;
+
+$color--meta: #8991A6;
+$color--meta-alt: #6A70ED;
+
+$transition--hover: cubic-bezier(.06, .53, .41, .89);
