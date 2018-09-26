@@ -30,6 +30,11 @@
 	display: inline-block;
 	transition: background-color .5s $transition--hover;
 
+	@media (max-width: $width--breakpoint) {
+		width: 100%;
+		text-align: center;
+	}
+
 	&-primary {
 		color: $color--background;
 		background-color: $color--links;
