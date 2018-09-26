@@ -20,9 +20,20 @@ footer {
 		display: block;
 		margin-top: 5px;
 		text-indent: -99999px;
-		background-size: 100%;
+		background-size: 55px 53px;
 		background-repeat: no-repeat;
+		background-position: top left;
 		background-image: url('/static/images/logo.png');
+
+		@media (min-width: $width--breakpoint) {
+			text-indent: 0;
+			font-size: 24px;
+			padding-top: 8px;
+			font-weight: 800;
+			line-height: 24px;
+			padding-left: 69px;
+			color: $color--headings;
+		}
 	}
 
 	nav {
@@ -39,6 +50,11 @@ footer {
 			&:hover {
 				color: $color--links;
 			}
+
+			@media (min-width: $width--breakpoint) {
+				margin-right: 64px;
+			}
+
 		}
 
 	}

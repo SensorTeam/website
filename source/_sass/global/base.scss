@@ -25,6 +25,10 @@ html {
 	background-size: 100% 320px;
 	background-repeat: repeat-x;
 	background-position: top center;
+
+	@media (min-width: $width--breakpoint) {
+		padding: 32px;
+	}
 }
 
 ul, ol,
