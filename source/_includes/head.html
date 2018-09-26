@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<title>{{ page.title }} &#8211; {{ site.title }}</title>
+
+	<meta name="robots" content="all">
+	<meta name="author" content="{{ site.author }}">
+	<meta name="theme-color" content="#{{ site.color }}">
+	<meta name="description" content="{{ site.description }}">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+	<link rel="shortcut icon" href="{{ site.icon | absolute_url }}">
+	<link rel="apple-touch-icon" href="{{ site.icon | absolute_url }}">
+
+	<link rel="stylesheet" href="/static/style.css">
+
+	<link rel="preload" href="/static/fonts/IBMPlexSans-Bold.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+	<link rel="preload" href="/static/fonts/IBMPlexSans-Medium.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+	<link rel="preload" href="/static/fonts/IBMPlexSans-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">

@@ -1,0 +1,51 @@
+// ------------------------------------------
+// Typography
+// ------------------------------------------
+
+a {
+	font-weight: 500;
+	color: $color--links;
+	text-decoration: none;
+	transition: color .25s $transition--hover;
+}
+
+a:hover {
+	color: $color--links-hover;
+}
+
+a:active {
+	color: $color--links-active;
+}
+
+h1 {
+	font-size: 32px;
+	line-height: 40px;
+	font-weight: 800;
+	color: $color--headings;
+}
+
+h2 {
+	font-size: 32px;
+	line-height: 40px;
+	font-weight: normal;
+	color: $color--subheadings;
+}
+
+h3 {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 500;
+	color: $color--meta;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.meta {
+	font-size: 13px;
+	line-height: 16px;
+	color: $color--meta;
+
+	&-alt {
+		color: $color--meta-alt;
+	}
+}

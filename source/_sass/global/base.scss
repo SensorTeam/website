@@ -1,0 +1,41 @@
+// ------------------------------------------
+// Base
+// ------------------------------------------
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: $font--size;
+	font-family: $font--stack;
+	line-height: $font--baseline;
+
+	color: $color--body;
+	background-color: $color--background;
+
+	-webkit-text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased;
+
+	padding: 16px;
+
+	background-image: linear-gradient(0deg, #151831 0%, #020314 100%);
+	background-size: 100% 320px;
+	background-repeat: repeat-x;
+	background-position: top center;
+}
+
+ul, ol,
+h1, h2, h3,
+p, blockquote, pre,
+figure, img, video, audio, embed {
+	max-width: 100%;
+	margin-bottom: 1rem;
+}
+
+main {
+	margin: 64px auto;
+	max-width: $width--site;
+}
