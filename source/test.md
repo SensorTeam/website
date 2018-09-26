@@ -1,6 +1,7 @@
 ---
 title: Home
 layout: default
+permalink: /test
 ---
 
 # This is an example heading.
