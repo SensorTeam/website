@@ -8,7 +8,7 @@
 	padding: 16px 32px;
 	border-radius: 8px;
 	display: inline-block;
-	transition: background-color .25s $transition--hover;
+	transition: background-color .5s $transition--hover;
 
 	&-primary {
 		color: $color--background;
@@ -31,7 +31,7 @@
 
 		&:hover {
 			color: $color--body;
-			background-color: lighten($color--background, 25%);
+			background-color: lighten($color--background, 15%);
 		}
 
 		&:active {
