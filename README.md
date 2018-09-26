@@ -10,4 +10,4 @@ The website for ZooPhotonics.
 ## Setup
 
 1. Run `bundle install` to install the necessary gems.
-2. Preview the site locally using `jekyll serve`.
+2. Preview the site locally by running the script in `scripts/serve.sh`.
