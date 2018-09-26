@@ -5,4 +5,23 @@
 header {
 	margin: 0 auto;
 	max-width: $width--site;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	.logo {
+		text-indent: 0;
+		font-size: 16px;
+		
+		@media (min-width: $width--breakpoint) {
+			font-size: 24px;
+		}
+	}
+
+	nav {
+		@media (max-width: $width--breakpoint) {
+			display: none;
+		}
+	}
 }

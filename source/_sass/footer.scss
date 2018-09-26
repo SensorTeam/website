@@ -15,47 +15,11 @@ footer {
 	border-top: 1px solid lighten($color--background, 5%);
 
 	.logo {
-		width: 55px;
-		height: 53px;
-		display: block;
-		margin-top: 5px;
-		text-indent: -99999px;
-		background-size: 55px 53px;
-		background-repeat: no-repeat;
-		background-position: top left;
-		background-image: url('/static/images/logo.png');
-
+		text-indent: -9999px;
+		
 		@media (min-width: $width--breakpoint) {
 			text-indent: 0;
-			font-size: 24px;
-			padding-top: 8px;
-			font-weight: 800;
-			line-height: 24px;
-			padding-left: 69px;
-			color: $color--headings;
 		}
 	}
 
-	nav {
-
-		a {
-			display: inline-block;
-			color: $color--headings;
-			margin-right: 24px;
-
-			&:last-child {
-				margin-right: 0;
-			}
-
-			&:hover {
-				color: $color--links;
-			}
-
-			@media (min-width: $width--breakpoint) {
-				margin-right: 64px;
-			}
-
-		}
-
-	}
 }
