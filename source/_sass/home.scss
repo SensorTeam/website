@@ -1,3 +1,45 @@
 // ------------------------------------------
-// Home (index.html)
+// Home (home.html)
 // ------------------------------------------
+
+
+.home {
+
+	.buttons {
+		margin-top: 32px;
+
+		.button {
+			margin-bottom: 16px;
+		}
+	}
+
+	.banner {
+		figure {
+			background-color: rgba(255,255,255,0.1);
+			width: 100%;
+			padding-top: 55%;
+		}
+	}
+
+	.info {
+		margin-top: 128px;
+
+		figure {
+			background-color: rgba(255,255,255,0.1);
+			width: 100%;
+			padding-top: 55%;
+		}
+
+		.meta {
+			margin-bottom: 16px;
+		}
+	}
+
+	.prompt {
+		margin-top: 128px;
+		padding-top: 32px;
+		margin-bottom: -32px;
+		border-top: 1px solid lighten($color--background, 5%);
+	}
+
+}
