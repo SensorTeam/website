@@ -2,7 +2,6 @@
 // Home (home.html)
 // ------------------------------------------
 
-
 .home {
 
 	.buttons {
@@ -10,75 +9,32 @@
 
 		.button {
 			margin-bottom: 16px;
-
-			@media (min-width: $width--breakpoint) {
-				margin-right: 16px;
-
-				&:last-child {
-					margin-right: 0;
-				}
-			}
-
 		}
 	}
 
-	.banner {
-		figure {
-			background-color: rgba(255,255,255,0.1);
+	.masthead {
+		.banner {
 			width: 100%;
 			padding-top: 55%;
-		}
-
-		@media (min-width: $width--breakpoint) {
-			text-align: center;
-
-			h1 {
-				font-size: 48px;
-				line-height: 1.25;
-				margin-bottom: 32px;
-			}
-
-			p { 
-				max-width: 768px;
-				margin: 0 auto;
-			}
+			margin-bottom: 32px;
+			background-color: rgba(255,255,255,0.1);
 		}
 	}
 
 	.info {
 		margin-top: 128px;
 
-		figure {
-			background-color: rgba(255,255,255,0.1);
+		.diagram {
 			width: 100%;
-			padding-top: 55%;
+			padding-top: calc((384/532) * 100%);
+			margin-bottom: 32px;
+			background-size: 100%;
+			background-position: center;
+			background-repeat: no-repeat;
 		}
 
 		.meta {
 			margin-bottom: 16px;
-		}
-
-		@media (min-width: $width--breakpoint) {
-			display: flex;
-			align-items: center;
-
-			& > * {
-				max-width: 468px;
-			}
-
-			figure {
-				padding-top: 33%;
-				margin-right: 64px;
-			}
-
-			&-alt {
-				flex-direction: row-reverse;
-
-				figure {
-					margin-right: 0;
-					margin-left: 64px;
-				}
-			}
 		}
 	}
 
@@ -87,15 +43,71 @@
 		padding-top: 32px;
 		margin-bottom: -32px;
 		border-top: 1px solid lighten($color--background, 5%);
+	}
 
-		@media (min-width: $width--breakpoint) {
+	@media (min-width: $width--breakpoint) {
+
+		.buttons {
+			.button {
+				margin-right: 16px;
+
+				&:last-child {
+					margin-right: 0;
+				}
+			}
+		}
+
+		.masthead {
+			text-align: center;
+
+			h1 {
+				font-size: 48px;
+				line-height: 60px;
+				margin-bottom: 32px;
+			}
+
+			p {
+				margin: 0 auto;
+				max-width: 768px;
+			}
+		}
+
+		.info {
+			display: flex;
+			align-items: center;
+
+			.diagram {
+				max-width: 532px;
+				margin-right: 32px;
+				margin-left: -32px;
+
+				height: 384px;
+				padding-top: 0;
+			}
+
+			.text {
+				max-width: 468px;
+			}
+
+			&-alt {
+				flex-direction: row-reverse;
+
+				.diagram {
+					margin-right: -32px;
+					margin-left: 32px;
+				}
+			}
+		}
+
+		.prompt {
 			text-align: center;
 
 			p {
-				max-width: 768px;
 				margin: 0 auto;
+				max-width: 768px;
 			}
 		}
+
 	}
 
 }
