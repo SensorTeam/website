@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="24px" viewBox="0 0 32 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Menu</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Main-Styles" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-272.000000, -35.000000)">
+        <g id="Group" fill="#353A5B">
+            <g id="Header">
+                <path d="M274,35 L302,35 C303.104569,35 304,35.8954305 304,37 C304,38.1045695 303.104569,39 302,39 L274,39 C272.895431,39 272,38.1045695 272,37 C272,35.8954305 272.895431,35 274,35 Z M274,45 L302,45 C303.104569,45 304,45.8954305 304,47 C304,48.1045695 303.104569,49 302,49 L274,49 C272.895431,49 272,48.1045695 272,47 C272,45.8954305 272.895431,45 274,45 Z M274,55 L302,55 C303.104569,55 304,55.8954305 304,57 C304,58.1045695 303.104569,59 302,59 L274,59 C272.895431,59 272,58.1045695 272,57 C272,55.8954305 272.895431,55 274,55 Z" id="Menu"></path>
+            </g>
+        </g>
+    </g>
+</svg>

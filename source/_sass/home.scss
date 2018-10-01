@@ -1,0 +1,143 @@
+// ------------------------------------------
+// Home (home.html)
+// ------------------------------------------
+
+.home {
+
+	.buttons {
+		margin-top: 32px;
+
+		.button {
+			margin-bottom: 16px;
+		}
+	}
+
+	.masthead {
+		margin-top: -64px;
+		.banner {
+			height: 348px;
+			width: calc(100% + 32px);
+			margin-left: -16px;
+			margin-bottom: 32px;
+			background-size: 1179px 384px;
+			background-repeat: no-repeat;
+			background-position: -68px 0px;
+		}
+	}
+
+	.info {
+		margin-top: 128px;
+
+		.diagram {
+			width: calc(100% + 32px);
+			padding-top: calc((384/532) * 100%);
+			margin-bottom: 32px;
+			margin-left: -16px;
+			background-size: 100%;
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+
+		.meta {
+			margin-bottom: 16px;
+		}
+	}
+
+	.prompt {
+		margin-top: 128px;
+		padding-top: 32px;
+		margin-bottom: -32px;
+		border-top: 1px solid lighten($color--background, 5%);
+	}
+
+	@media (min-width: $width--breakpoint) {
+
+		.buttons {
+			.button {
+				margin-right: 16px;
+
+				&:last-child {
+					margin-right: 0;
+				}
+			}
+		}
+
+		.masthead {
+			margin-top: 0;
+			text-align: center;
+
+			.banner {
+				background-size: 100%;
+				padding-top: calc((384/1179) * 100%);
+				background-position: center;
+			}
+
+			h1 {
+				font-size: 48px;
+				line-height: 60px;
+				margin-bottom: 32px;
+			}
+
+			p {
+				margin: 0 auto;
+				max-width: 768px;
+			}
+		}
+
+		.info {
+			display: flex;
+			align-items: center;
+
+			.diagram {
+				width: 100%;
+				max-width: 532px;
+				margin-right: 32px;
+				margin-left: -32px;
+
+				height: 384px;
+				padding-top: 0;
+			}
+
+			.text {
+				max-width: 468px;
+			}
+
+			&-alt {
+				flex-direction: row-reverse;
+
+				.diagram {
+					margin-right: -32px;
+					margin-left: 32px;
+				}
+			}
+		}
+
+		.prompt {
+			text-align: center;
+
+			p {
+				margin: 0 auto;
+				max-width: 768px;
+			}
+		}
+
+	}
+
+	@media (min-width: 1243px) {
+		.masthead {
+			position: relative;
+			padding-top: calc(384px + 32px);
+
+			.banner {
+				top: 0;
+				left: 50%;
+				height: 384px;
+				width: 1179px;
+				padding-top: 0;
+				position: absolute;
+				margin-left: calc(-1179px / 2);
+			}
+		}
+	}
+
+}
