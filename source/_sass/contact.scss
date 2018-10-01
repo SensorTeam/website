@@ -1,0 +1,86 @@
+.contact {
+	
+	.details {
+		text-align: center;
+		width: 768px;
+		margin-left: auto;
+		margin-right: auto;
+		@media (max-width: $width--breakpoint) {
+			text-align: left;
+			width: 100%
+		}
+
+		h1 {
+			}
+
+
+		p {
+			color: $color--body;
+			margin-top: 32px;
+			max-width: 700px;
+			margin: 0 auto;
+			}
+		}
+
+		p span::before {
+		@media (min-width: $width--breakpoint) {
+			content: "\A";
+			white-space: pre;
+			}
+		}
+
+	.form {
+		margin-top: 64px;
+		margin-bottom: 128px;
+		width: 768px;
+		margin-left: auto;
+		margin-right: auto;
+		@media (max-width: $width--breakpoint) {
+			width: 100%
+		}
+		
+		.text-block {
+			color: $color--meta;
+			font-size: 13px;
+		}
+		
+		.submit{
+			font-size: 16px;
+			line-height: 16px;
+			padding: 16px 32px;
+			border-radius: 8px;
+			transition: background-color .5s $transition--hover;
+			border: None;
+			font-weight: 500;
+			font-display: swap;
+			font-family: 'PlexSans-Web';
+			float: right;
+
+			@media (max-width: $width--breakpoint) {
+				width: 100%;
+				text-align: center;
+			}
+
+			color: $color--background;
+			background-color: $color--links;
+
+			&:hover {
+				color: $color--background;
+				background-color: $color--links-hover;
+			}
+
+			&:active {
+				color: $color--background;
+				background-color: $color--links-active;
+			}
+		}
+	}
+}
+
+::placeholder {
+		color: $color--body
+	}
+
+:focus::placeholder {
+		color: $color--background
+	}
