@@ -8,6 +8,8 @@ description: A research team developing wildlife monitoring systems
 
 url: https://zoophotonics.com
 icon: /static/images/icon.png
+mask: /static/images/mask.svg
+banner: /static/images/banner.png
 color: 555ABF
 
 sass:
