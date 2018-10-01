@@ -1,0 +1,38 @@
+// ------------------------------------------
+// About (about.html)
+// ------------------------------------------
+
+
+.about {
+	section {
+		margin-bottom: 64px;
+	}
+
+	.people {
+		margin-top: 32px;
+		margin-bottom: 32px;
+	}
+
+	.person {
+		margin-top: 32px;
+		display: flex;
+		flex-direction: row;
+	}
+
+	img {
+		border-radius: 100%;
+		margin-right: 16px;
+		width: 64px;
+		height: 64px;
+		object-fit: cover;
+	}
+
+	.details {
+		margin-top: 8px;
+	}
+
+	.meta {
+		margin-top: -8px;
+	}
+
+}
