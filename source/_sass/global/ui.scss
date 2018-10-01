@@ -66,3 +66,57 @@
 	}
 
 }
+
+.input {
+	font-size: 16px;
+	line-height: 16px;
+	padding: 16px 48px;
+	border-radius: 4px;
+	display: block;
+	transition: background-color .5s $transition--hover;
+	border: 0px solid;
+	margin-top: 16px;
+	margin-bottom: 32px;
+	width: 100%;
+	font-display: swap;
+	font-family: 'PlexSans-Web';
+	src: url('/static/fonts/IBMPlexSans-Regular.ttf') format('truetype');
+	
+	color: $color--body;
+	background-color: lighten($color--background, 10%);
+	outline: None;
+
+	&:focus {
+		color: $color--background;
+		background-color: #FFFFFF;
+	}
+
+}
+
+.textarea {
+	font-size: 16px;
+	line-height: 16px;
+	padding: 16px 48px;
+	border-radius: 4px;
+	display: block;
+	transition: background-color .5s $transition--hover;
+	border: 0px solid;
+	margin-top: 16px;
+	margin-bottom: 32px;
+	height: 160px;
+	width: 100%;
+	text-align:top;
+	font-display: swap;
+	font-family: 'PlexSans-Web';
+	src: url('/static/fonts/IBMPlexSans-Regular.ttf') format('truetype');
+	
+	color: $color--body;
+	background-color: lighten($color--background, 10%);
+	outline: None;
+
+	&:focus {
+		color: $color--background;
+		background-color: #FFFFFF;
+	}
+
+}

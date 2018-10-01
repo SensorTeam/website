@@ -1,0 +1,34 @@
+---
+title: Contact
+layout: default
+permalink: /contact
+---
+
+<section class="details">
+	<h1>Contact Us</h1>
+	<p>Have a question to ask? Want to learn more about our work? <span>Interested in partnering or supporting us? Get in touch - we'd love to hear from you.</span></p>
+</section>
+
+<section class ="form">
+	<form name="contact" method="POST" netlify>
+		<div class="text-block">
+			<label for="name">Full Name</label>
+			<input type="text" class="input" placeholder="First Name Last Name" name="name" required>
+		</div>
+		<div class="text-block">
+			<label for="organisation">Organisation (Optional)</label>
+			<input type="text" class="input" placeholder="Organisation Pty Ltd" name="organisation">
+		</div>
+		<div class="text-block">
+			<label for="email">Email Addess</label>
+			<input type="text" class="input" placeholder="first.last@organisation.com" name="email" required>
+		</div>
+		<div class="text-block">
+			<label for="message">Message</label>
+			<textarea name="message" class="textarea" placeholder="Hello world..." required></textarea>
+		</div>
+		<div>
+			<button type="submit" class="submit">Send Message</button>
+		</div>
+	</form>
+</section>
