@@ -1,4 +1,19 @@
 <header>
 	<a href="/" class="logo">ZooPhotonics</a>
-	{% include nav.html %}
+	<div class="menu" onclick="toggle(this, 'visible')">
+		{% include nav.html %}
+	</div>
 </header>
+
+<script type="text/javascript">
+	function toggle(el, toggleClass) {
+		let currentClass = el.className
+		let newClass
+		if (currentClass.split(" ").indexOf(toggleClass) > -1) {
+			newClass = currentClass.replace(new RegExp('\\b'+toggleClass+'\\b','g'),"")
+		} else {
+			newClass = currentClass + " " + toggleClass
+		}
+		el.className = newClass.trim()
+	}
+</script>
