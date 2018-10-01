@@ -1,0 +1,41 @@
+.thank_you_page {
+
+	.outer {
+
+		height: 300px;
+		display: flex;
+		align-items: center;
+
+		.inner {
+
+			margin: 0 auto;
+
+			.message {
+
+				text-align: center;
+				@media (max-width: $width--breakpoint) {
+					text-align: left;
+				}
+
+			}
+
+			.links {
+
+				text-align: center;
+
+				a{
+					margin-top: 16px;
+					@media (min-width: $width--breakpoint) {
+						margin-left:8px;
+						margin-right:8px;
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
