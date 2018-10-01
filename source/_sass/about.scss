@@ -4,35 +4,70 @@
 
 
 .about {
-	section {
+
+	.intro{
+		margin-top: 128px;
+		margin-bottom: 128px;
+	}
+	.list{
 		margin-bottom: 64px;
 	}
 
 	.people {
 		margin-top: 32px;
 		margin-bottom: 32px;
-	}
+		.pheading {
+			margin-bottom: 32px;
+		}
+		.person {
+			margin-top: 16px;
+			display: flex;
+			flex-direction: row;
 
-	.person {
-		margin-top: 32px;
-		display: flex;
-		flex-direction: row;
-	}
-
-	img {
-		border-radius: 100%;
-		margin-right: 16px;
-		width: 64px;
-		height: 64px;
-		object-fit: cover;
-	}
-
-	.details {
-		margin-top: 8px;
+			img {
+				border-radius: 100%;
+				margin-right: 16px;
+				width: 64px;
+				height: 64px;
+				object-fit: cover;
+			}
+			.details {
+				width: 256px;
+				margin-top: 8px;
+			}
+		}
 	}
 
 	.meta {
 		margin-top: -8px;
+	}
+
+	@media (min-width: $width--breakpoint) {
+		.intro{
+			text-align: center;
+		}
+
+		.people {
+			.pheading {
+				text-align: center;
+			}
+			.row {
+				display: flex;
+				justify-content: center;
+			}
+			.person {
+				margin-left: 64px;
+
+				img {
+					width: 112px;
+					height: 112px;
+				}
+				.details {
+					margin-top: 32px;
+					margin-left: 16px;
+				}
+			}
+		}
 	}
 
 }
