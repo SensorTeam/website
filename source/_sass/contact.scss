@@ -51,10 +51,9 @@
 			border-radius: 8px;
 			transition: background-color .5s $transition--hover;
 			border: None;
-			font-weight: 800;
+			font-weight: 500;
 			font-display: swap;
 			font-family: 'PlexSans-Web';
-			src: url('/static/fonts/IBMPlexSans-Bold.ttf') format('truetype');
 			float: right;
 
 			@media (max-width: $width--breakpoint) {
