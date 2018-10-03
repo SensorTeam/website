@@ -43,6 +43,10 @@
 			color: $color--meta;
 			font-size: 13px;
 		}
+
+		.textarea {
+			resize: vertical;
+		}
 		
 		.submit{
 			font-size: 16px;
@@ -55,6 +59,7 @@
 			font-display: swap;
 			font-family: 'PlexSans-Web';
 			float: right;
+			cursor: pointer;
 
 			@media (max-width: $width--breakpoint) {
 				width: 100%;
@@ -78,7 +83,8 @@
 }
 
 ::placeholder {
-		color: $color--body
+		color: $color--body;
+		transform: translateY(2px);
 	}
 
 :focus::placeholder {
