@@ -6,8 +6,7 @@
 .about {
 
 	.intro{
-		margin-top: 128px;
-		margin-bottom: 128px;
+		margin-bottom: 64px;
 	}
 	.list{
 		margin-bottom: 64px;
@@ -34,6 +33,10 @@
 			.details {
 				width: 256px;
 				margin-top: 8px;
+
+				p {
+					font-weight: 500;
+				}
 			}
 		}
 	}
